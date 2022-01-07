@@ -101,22 +101,27 @@ a{
                 /*   NAVEGAÇÃO LATERAL   */
 .sidenav{
     grid-area: sidenav;
-    padding: 30px;
+    padding: 30x;
     margin-top: 20px;
 }
 .sidenav li a{
     display: block;
+    background-color: var(--cor07);
     max-width: 130px;
     min-width: 60px;
     margin: 0px auto 30px auto;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 15px;
+    border-radius: 10px;
     box-shadow: 5px 5px 15px 0px rgba(210, 55, 241, 0.253);
     transition: .2s;
 }
 .sidenav li a:hover{
     background-color: var(--cor04);
 }
+.sidenav li a img{
+    border-radius: 10px;
+}
+
 @media(max-width: 755px){
     .sidenav{
         position: relative;
