@@ -79,6 +79,13 @@ a{
     align-items: center;
     box-shadow: 5px 5px 15px  rgba(210, 55, 241, 0.35);
 }
+.header a{
+    display: grid;
+    grid-template-columns: auto 350px;
+}
+.header a img{
+    max-width: auto;
+}
 .logo{
     font-family: var(--fonte-alegre);
     /*font-style: italic;*/
