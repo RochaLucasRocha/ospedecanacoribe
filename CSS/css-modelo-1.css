@@ -74,18 +74,22 @@ a{
     grid-area: header;
     background-image: linear-gradient(to right, var(--cor07), var(--cor06));
     padding: 25px;
-    display: grid;
-    grid-template-columns: 1fr auto;
+    /*display: grid;
+    grid-template-columns: 1fr auto;*/
     align-items: center;
     box-shadow: 5px 5px 15px  rgba(210, 55, 241, 0.35);
 }
 .header a{
     display: grid;
-    grid-template-columns: auto 350px;
+    grid-template-columns:1fr;
 }
+.header h1{
+    font-size: 1.6em;
+}
+/* com retirada da imagem
 .header a img{
     max-width: auto;
-}
+}*/
 .logo{
     font-family: var(--fonte-alegre);
     /*font-style: italic;*/
@@ -99,8 +103,12 @@ a{
     padding-right: 30px;
 }
 @media(max-width: 590px){
+    .header a{
+       display: grid;
+       grid-template-columns: 1fr;
+    }
     .header h1{
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
 
@@ -109,7 +117,7 @@ a{
 .sidenav{
     grid-area: sidenav;
     padding: 30x;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .sidenav li a{
     display: block;
@@ -246,7 +254,7 @@ p{
     display: grid;
     align-content: start;
     padding: 25px;
-    margin-top: 20px;
+    margin-top: 50px;
     grid-gap: 30px;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
