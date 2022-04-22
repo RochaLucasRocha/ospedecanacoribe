@@ -1,0 +1,43 @@
+@charset "UTF/8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+body{
+    background: black;
+}
+main{
+    margin: 4vw auto 0 auto;
+    max-width: 1000px;
+    background: rgb(134, 209, 21);
+    border-radius: 10px;
+}
+h2{
+    padding: 30px;    
+    text-align: justify;
+}
+div{
+    text-align: center;
+}
+img{
+    max-width: 50vh;
+}
+p{
+    font-weight: bolder;
+}
+p a{
+    text-decoration: none;
+    color: black;
+}
+p a:hover{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.entrar{
+    padding-bottom: 30px;
+}
