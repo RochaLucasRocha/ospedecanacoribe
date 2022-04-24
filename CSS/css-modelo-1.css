@@ -118,16 +118,17 @@ a{
     grid-area: sidenav;
     padding: 30x;
     margin-top: 50px;
+    padding: 10px;
 }
 .sidenav li a{
     display: block;
-    background-color: var(--cor07);
+    background-color: white;
     max-width: 130px;
-    min-width: 60px;
+    min-width: 80px;
     margin: 0px auto 30px auto;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px 0px rgba(210, 55, 241, 0.253);
+    box-shadow: 5px 5px 15px 3px rgba(210, 55, 241, 0.507);
     transition: .2s;
 }
 .sidenav li a:hover{
