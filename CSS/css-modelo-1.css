@@ -307,6 +307,9 @@ p{
     .footer p{
         text-align: center !important;
     }
+    .informacao-adicional{
+        padding-left: 10px !important;
+    }
 }
 .informacao-adicional{
     font-size: 1.2em;
