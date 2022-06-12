@@ -7,18 +7,18 @@
 }
 
 body{
-    background: rgba(0, 0, 0, 0.685);
+    background: rgba(68, 3, 52, 0.473);
 }
 main{
     margin: 4vw auto 0 auto;
     max-width: 1000px;
-    background: rgb(134, 209, 21);
+    background: rgb(21, 209, 30);
     border-radius: 10px;
 }
 h2{
     padding: 30px;    
     text-align: justify;
-    color: rgba(0, 0, 0, 0.637);
+    color: rgba(0, 0, 0, 0.699);
 }
 div{
     text-align: center;
@@ -31,7 +31,7 @@ p{
 }
 p a{
     text-decoration: none;
-    color: rgb(122, 8, 8);
+    color: rgb(39, 1, 1);
 }
 p a:hover{
     background-color: black;
