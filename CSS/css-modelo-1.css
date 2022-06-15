@@ -104,7 +104,9 @@ a{
     padding-right: 30px;
 }
 @media(max-width: 590px){
-    
+    .header{
+        padding-left: 5px;
+    }
     .header .logo{
         display: grid;
         grid-template-columns: 1fr;   
