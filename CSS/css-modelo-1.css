@@ -115,6 +115,7 @@ a{
     .header .logo h1{
         font-size: 1.1em;
         text-align: center;
+        padding: 0;
     }
 }
 
