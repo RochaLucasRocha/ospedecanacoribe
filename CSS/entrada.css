@@ -28,18 +28,20 @@ div{
 }
 img{
     max-width: 50vh;
+    border-radius: 5px;
 }
 p{
     font-weight: bolder;
+    margin-top: 10px;
 }
 p a{
     text-decoration: none;
-    color: rgb(39, 1, 1);
+    color: rgb(0, 0, 0);
 }
 p a:hover{
-    background-color: black;
+    background-color: rgb(112, 12, 126);
     color: white;
-    padding: 5px;
+    padding: 5px 15px;
     border-radius: 5px;
 }
 .entrar{
