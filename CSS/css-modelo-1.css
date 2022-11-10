@@ -129,10 +129,9 @@ a{
 }
 .sidenav li a{
     display: block;
-    max-width: 130px;
-    min-width: 80px;
-    margin: 0px auto 30px auto;
-    padding: 15px;
+    max-width: 145px;
+    margin: 0px auto 20px auto;
+    padding: px;
     border-radius: 10px;
     box-shadow: 5px 5px 15px 3px rgba(210, 55, 241, 0.507);
     transition: .2s;
