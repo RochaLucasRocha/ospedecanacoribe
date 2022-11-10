@@ -345,3 +345,12 @@ p{
 .footer a.lr::after{
     content: '\00A0\2660';
 }   
+
+.fotosdodia{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)/*1fr 1fr 1fr*/;
+    max-width: 800px;
+    padding: 10px;
+    margin: 0 auto;
+    grid-gap: 20px;
+}
