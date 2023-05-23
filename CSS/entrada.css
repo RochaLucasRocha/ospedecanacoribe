@@ -11,6 +11,13 @@ body{
     background-image: url(../imagens/imagemdefundo.png);
     background-size: 200px;
 }
+@media(max-width: 650px){
+    body{
+        display: grid;
+        grid-template-columns: auto;
+        background-size: 90px;
+    }
+}
 main{
     margin: 4vw auto 0 auto;
     max-width: 1000px;
